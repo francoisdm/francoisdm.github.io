@@ -6,6 +6,7 @@ var diameter = 650, /* edited by fdm */
     doublediameter = diameter * 2; /* added by fdm */
 
 var cluster = d3.cluster()
+    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 3 ) }) /* added by fdm */
     .size([360, innerRadius]);
 
 var line = d3.radialLine()
@@ -16,12 +17,14 @@ var line = d3.radialLine()
 var svg = d3.select("body").append("svg")
     .attr("width", doublediameter) /* edited by fdm */
     .attr("height", doublediameter) /* edited by fdm */
-  .append("g")
+    .append("g")
     //.attr("transform", "translate(" + radius + "," + radius + ")");
     .attr("transform", "translate(" + outerRadius2 + "," + outerRadius + ")"); /* added by fdm */
 
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
+
+d3.selectAll("g").classed("nodes", true); /* added by fdm */
 
 d3.json("data/nwm.json", function(error, classes) {
   if (error) throw error;
@@ -48,7 +51,7 @@ d3.json("data/nwm.json", function(error, classes) {
       .text(function(d) { return d.data.key; })
       .on("mouseover", mouseovered)
       .on("mouseout", mouseouted);
-});
+  });
 
 function mouseovered(d) {
   node
