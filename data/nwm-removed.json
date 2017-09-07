@@ -1,0 +1,4 @@
+{"name":"nwm.maincat.Structure","imports":["structure.radcat.Radionuclide Categories","structure.wastematerials.Waste Materials","structure.facilities.Facilities"]},
+{"name":"nwm.maincat.Functions","imports":["functions.treatment.Treatment and Conditioning","functions.processing.Processing","functions.storagedisp.Storage and Disposal","functions.interimstorage.Interim waste storage and transport"]},
+{"name":"nwm.maincat.Governance"},
+{"name":"nwm.maincat.Analysis"},
