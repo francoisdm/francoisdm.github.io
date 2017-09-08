@@ -6,7 +6,7 @@ var diameter = 650, /* edited by fdm */
     doublediameter = diameter * 2; /* added by fdm */
 
 var cluster = d3.cluster()
-    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2.5 ) }) /* added by fdm */
+    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2 ) }) /* added by fdm */
     .size([360, innerRadius]);
 
 var line = d3.radialLine()
