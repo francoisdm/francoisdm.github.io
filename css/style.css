@@ -1,5 +1,23 @@
+  h2 {
+  font-family: 'Open Sans';
+  font-style: light;
+  font-weight: 400;
+  }
+
+  p,
+  div {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
   .node {
-    font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans';
+    font-style: semi-bold;
+    font-weight: 200;
+    font-size: 12px;
     fill: #aaa;
   }
   
