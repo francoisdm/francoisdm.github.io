@@ -1,12 +1,12 @@
 var diameter = 650, /* edited by fdm */
     radius = diameter / 2,
     innerRadius = radius - 120,
-    outerRadius = radius + 150, /* added by fdm */
-    outerRadius2 = radius + 150, /* added by fdm */
+    outerRadius = radius + 100, /* added by fdm */
+    outerRadius2 = radius + 120, /* added by fdm */
     doublediameter = diameter * 2; /* added by fdm */
 
 var cluster = d3.cluster()
-    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2 ) }) /* added by fdm */
+    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 1.6 ) }) /* added by fdm */
     .size([360, innerRadius]);
 
 var line = d3.radialLine()
@@ -16,7 +16,7 @@ var line = d3.radialLine()
 
 var svg = d3.select("body").append("svg")
     .attr("width", 950) /* edited by fdm */
-    .attr("height", 950) /* edited by fdm */
+    .attr("height", 850) /* edited by fdm */
     .append("g")
     //.attr("transform", "translate(" + radius + "," + radius + ")");
     .attr("transform", "translate(" + outerRadius2 + "," + outerRadius + ")"); /* added by fdm */
