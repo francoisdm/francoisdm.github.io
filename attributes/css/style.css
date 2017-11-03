@@ -1,0 +1,34 @@
+h2 {
+    font-family: 'Open Sans';
+    font-style: light;
+    font-weight: 400;
+}
+
+p,
+div {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font: 12px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
