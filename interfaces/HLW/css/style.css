@@ -1,0 +1,78 @@
+  h2 {
+  font-family: 'Open Sans';
+  font-style: light;
+  font-weight: 400;
+  }
+
+  p,
+  div {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    color: #111;
+  }
+  
+  .node {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    fill: #666;
+  }
+  
+  .node:hover {
+    fill: #333;
+  }
+  
+  .link {
+    stroke: #666;
+    stroke-opacity: 0.8;
+    fill: none;
+    pointer-events: none;
+  }
+  
+  .node:hover,
+  .node--source,
+  .node--target {
+    font-weight: 700;
+  }
+  
+  .node--source {
+    /* fill: #2ca02c; */
+    fill: #333;
+  }
+  
+  .node--target {
+    /* fill: #d62728; */
+    fill: #333;
+  }
+  
+  .link--source,
+  .link--target {
+    stroke-opacity: 0.9;
+    stroke-width: 1.5px;
+  }
+  
+  .link--source {
+    /* stroke: #d62728; */
+    stroke: #333;
+  }
+  
+  .link--target {
+    /* stroke: #2ca02c; */
+    stroke: #333;
+  }
+
+  /* added by fdm 
+  text.structure {
+    fill: rgb(230, 135, 130);
+  }
+  text.functions {
+    fill: rgb(235, 217, 95);
+  }
+  text.analysis {
+    fill: rgb(122, 163, 229);
+  }
+  text.control {
+    fill: rgb(103, 215, 196);
+  }
+  /* END added by fdm */

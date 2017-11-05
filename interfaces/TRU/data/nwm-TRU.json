@@ -1,0 +1,342 @@
+[
+    {"name":"NWM systems.Waste materials.Waste generation.Nuclear power.Power reactors"},
+    
+    
+    
+    
+    {"name":"NWM systems.Waste materials.Waste generation.Nuclear power.Nuclear fuel cycle"},
+    
+    
+    {"name":"NWM systems.Waste materials.Waste generation.Other.Defense programs","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Waste materials.Waste generation.Other.Research reactors"},
+    {"name":"NWM systems.Waste materials.Waste generation.Other.Medical applications"},
+    {"name":"NWM systems.Waste materials.Radionuclides.Activation products"},
+    {"name":"NWM systems.Waste materials.Radionuclides.Mixed fission products"},
+    
+    {"name":"NWM systems.Waste materials.Radionuclides.Transuranic isotopes","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Waste materials.Radionuclides.Naturally-occurring isotopes"},
+    {"name":"NWM systems.Waste materials.Radionuclides.Tritium.H-3"},
+    {"name":"NWM systems.Waste materials.Radionuclides.Various.Radioactivity from various sources and categories"},
+    {"name":"NWM systems.Waste materials.Waste types.Highly radioactive, heat producing.SNF"},
+    {"name":"NWM systems.Waste materials.Waste types.Highly radioactive, heat producing.HLW"},
+    {"name":"NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.LLW-LL"},
+    {"name":"NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.ILW-LL"},
+    {"name":"NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"},
+    {"name":"NWM systems.Waste materials.Waste types.Low-level waste and short-lived nuclides.VLLW"},
+    {"name":"NWM systems.Waste materials.Waste types.Low-level waste and short-lived nuclides.LLW/MLLW"},
+    {"name":"NWM systems.Waste materials.Waste types.Low-level waste and short-lived nuclides.L/ILW-SL"},
+    {"name":"NWM systems.Waste materials.Waste types.Low-level waste and short-lived nuclides.Sealed sources"},
+    {"name":"NWM systems.Waste materials.Waste types.Low-level waste and short-lived nuclides.NORM/TENORM (mine overburden)"},
+    {"name":"NWM systems.Waste materials.Waste types.Low-level waste and short-lived nuclides.Residual radioactive material (tailings)"},
+    {"name":"NWM systems.Waste materials.Waste properties.Decay mode.Gamma radiation (γ)"},
+    {"name":"NWM systems.Waste materials.Waste properties.Decay mode.Beta radiation (β-)"},
+    {"name":"NWM systems.Waste materials.Waste properties.Decay mode.Alpha radiation (α)"},
+    {"name":"NWM systems.Waste materials.Waste properties.Decay mode.Multiple radiation"},
+    {"name":"NWM systems.Waste materials.Waste properties.Radiotoxicity (Sv)","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Waste materials.Waste properties.Estimated activity level (Bq)","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Waste materials.Waste properties.Half-life (years)","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Waste materials.Waste properties.Decay heat (kW/t)","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Waste materials.Waste properties.Geochemical mobility (Kd)","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Waste materials.Waste properties.Solubility","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Waste materials.Waste properties.Criticality"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement a nuclear energy programme.Fuel management policy needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement a nuclear energy programme.Spent fuel interim storage capacity needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement a nuclear energy programme.Participation in development suitable fuel cycle options"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement a nuclear energy programme.Geological disposal that will be needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement a nuclear energy programme.Funding scheme"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Absence or postponement of decision on spent fuel.Additional interim storage capacity needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Absence or postponement of decision on spent fuel.Safety provisions to deal with long term storage"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Absence or postponement of decision on spent fuel.Measures to ensure continuity of knowledge"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Absence or postponement of decision on spent fuel.Ensuring long-term funding"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to reprocess and to directly dispose spent fuel.Long-term storage capacity needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to reprocess and to directly dispose spent fuel.Encapsulation process needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to reprocess and to directly dispose spent fuel.Adequate geological disposal needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to reprocess and recycle spent fuel.Contacts for reprocessing and MOX fuel fabrication needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to reprocess and recycle spent fuel.Interim storage for high level waste and spent MOX fuel"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to reprocess and recycle spent fuel.Participation in development of fast Neutron reactor"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement fast neutron reactors.Dedicated system for recycling needed"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement fast neutron reactors.Geopolitical disposal needed, mainly limited to high-level waste"},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement partitioning and transmutation.Dedicated system for partitioning needed","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Decisions affecting NWM.Decision to implement partitioning and transmutation.Simple geological disposal needed, limited to residual high-level waste","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Management practices.Current practices.Reprocessing included in fuel cycle"},
+    {"name":"NWM systems.Management.Management practices.Current practices.Transportation system in place to move SNF/HLW to a deep geologic repository"},
+    {"name":"NWM systems.Management.Management practices.Current practices.Material authorized to be disposed of in a deep geologic repository","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Management practices.Current practices.Independent centralized interim storage facility established"},
+    {"name":"NWM systems.Management.Management practices.Geological investigations.Geologic environments considered or investigated","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Management practices.Geological investigations.Indigenous underground research laboratory established"},
+    {"name":"NWM systems.Management.Management practices.Status of the site-selection process"},
+    {"name":"NWM systems.Management.Management practices.Anticipated start of repository operations"},
+    {"name":"NWM systems.Management.Management practices.Expected duration of operations before closure"},
+    {"name":"NWM systems.Management.Facilities.Spent fuel.Storage facilities"},
+    
+    
+    
+    {"name":"NWM systems.Management.Facilities.Spent fuel.Disposal facilities"},
+    
+    {"name":"NWM systems.Management.Facilities.Radioactive waste.Storage facilities"},
+    {"name":"NWM systems.Management.Facilities.Radioactive waste.Disposal facilities.Geologic repositories"},
+    {"name":"NWM systems.Management.Facilities.Radioactive waste.Disposal facilities.Deep boreholes"},
+    {"name":"NWM systems.Management.Facilities.Radioactive waste.Disposal facilities.Near-surface disposal"},
+    {"name":"NWM systems.Management.Facilities.Radioactive waste.Disposal facilities.UMTRCA"},
+    {"name":"NWM systems.Management.Facilities.Radioactive waste.Disposal facilities.Disposal cells","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Processes.Transport.Transport off the reactor"},
+    {"name":"NWM systems.Management.Processes.Transport.Transport to storage and disposal facilities","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Processes.Treatment and conditioning.Incineration and compaction","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Processes.Treatment and conditioning.Cementation"},
+    {"name":"NWM systems.Management.Processes.Treatment and conditioning.Vitrification"},
+    {"name":"NWM systems.Management.Processes.Treatment and conditioning.Synroc and composite wasteforms"},
+    {"name":"NWM systems.Management.Processes.Treatment and conditioning.Grout"},
+    {"name":"NWM systems.Management.Processes.Treatment and conditioning.Bitumen"},
+    {"name":"NWM systems.Management.Processes.Treatment and conditioning.Engineered encapsulation","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Processes.Treatment and conditioning.Repackaging of spent fuel"},
+    {"name":"NWM systems.Management.Processes.(Re)processing"},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Near-surface disposal"},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Deep geological disposal","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Others.Long-term above ground storage","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Others.Disposal in outer space"},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Others.Rock-melting"},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Others.Disposal at subduction zones"},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Others.Sea disposal"},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Others.Sub seabed disposal"},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Others.Disposal in ice sheets"},
+    {"name":"NWM systems.Management.Processes.Storage and disposal.Others.Deep well injection"},
+    {"name":"NWM systems.Management.Processes.Interim storage"},
+    
+    
+    
+    
+    {"name":"NWM systems.Control.Analysis.Monitoring.Inventory.Waste types","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    {"name":"NWM systems.Control.Analysis.Monitoring.Inventory.Radionuclides","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Control.Analysis.Monitoring.Inventory.Spent nuclear fuel"},
+    
+    
+    {"name":"NWM systems.Control.Analysis.Monitoring.Inventory.HLW from reprocessing"},
+    
+    {"name":"NWM systems.Control.Analysis.Monitoring.Inventory.Waste package","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Monitoring.Waste properties","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Monitoring.Waste package integrity","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Monitoring.SNF acceptance rate from reactor sites"},
+    {"name":"NWM systems.Control.Analysis.Monitoring.Radiation protection","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Decision-support analysis.Cost/benefit analysis"},
+    {"name":"NWM systems.Control.Analysis.Decision-support analysis.Multicriteria decision analysis (MCDA)"},
+    {"name":"NWM systems.Control.Analysis.Decision-support analysis.Integrated analysis"},
+    {"name":"NWM systems.Control.Analysis.Decision-support analysis.Sensitivity auditing"},
+    {"name":"NWM systems.Control.Analysis.Technical models.Operation (short term).Integrated geo-information database"},
+    {"name":"NWM systems.Control.Analysis.Technical models.Operation (short term).Processes"},
+    {"name":"NWM systems.Control.Analysis.Technical models.Operation (short term).Fuel cycle simulation models"},
+    {"name":"NWM systems.Control.Analysis.Technical models.Final disposal (long term).Waste forms evolution","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Technical models.Final disposal (long term).Geological conditions","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Technical models.Final disposal (long term).Safety analysis and performance assessment","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    
+    {"name":"NWM systems.Control.Analysis.Technical models.Scenarios.Repository design","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    
+    
+    
+    {"name":"NWM systems.Control.Analysis.Technical models.Scenarios.Radionuclide isolation failure types.Water access to the waste container and corrosion","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Technical models.Scenarios.Radionuclide isolation failure types.Glass corrosion"},
+    {"name":"NWM systems.Control.Analysis.Technical models.Scenarios.Radionuclide isolation failure types.Retention","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Technical models.Scenarios.Radionuclide isolation failure types.Migration","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Technical models.Scenarios.Safety analysis","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Analysis.Technical models.Indicators.Safety","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    
+    
+    
+    
+    {"name":"NWM systems.Control.Analysis.Technical models.Indicators.Performance","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {"name":"NWM systems.Control.Safety design (geological disposal).Long-term health and safety requirements.Dose constraint","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Long-term health and safety requirements.Risk limit","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Long-term health and safety requirements.Compliance period","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Retrievability"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.No defense-in-depth or redundancy","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste forms.Single-phase (homogeneous) glasses"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste forms.Glass-ceramic materials"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste forms.Crystalline ceramics"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste forms.Metals"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste forms.Cements"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste forms.Geopolymers"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste forms.Hydroceramics"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste forms.Ceramicretes"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste package.Iron inserts"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Waste package.Metal canister"},
+    
+    
+    
+    
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Surrounding backfill (or overpack).Material type"},
+    
+    
+    
+    
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Surrounding backfill (or overpack).Thickness (cm)"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Engineered barrier system.Importance to safety case"},
+    
+    
+    {"name":"NWM systems.Control.Safety design (geological disposal).Defense-in-depth.Multiple barriers containment.Geological barriers"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Methodology for demonstrating compliance with postclosure standards.Scoping assessments"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Methodology for demonstrating compliance with postclosure standards.Bounding assessments"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Methodology for demonstrating compliance with postclosure standards.Realistic best estimates of performance"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Methodology for demonstrating compliance with postclosure standards.Conservative calculations (safety case)"},
+    {"name":"NWM systems.Control.Safety design (geological disposal).Methodology for demonstrating compliance with postclosure standards.Deterministic or probabilistic calculations"},
+    
+    {"name":"NWM systems.Control.Safety design (geological disposal).Methodology for demonstrating compliance with postclosure standards.No decision made"},
+    {"name":"NWM systems.Control.Governance.Institutions.Implementing organizations.Government agency","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Institutions.Implementing organizations.Government-owned corporation"},
+    {"name":"NWM systems.Control.Governance.Institutions.Implementing organizations.Joint waste management company created by the owners of the nuclear power plants (utilities)"},
+    {"name":"NWM systems.Control.Governance.Institutions.Implementing organizations.Private corporation formed by the owners of the nuclear fuel waste"},
+    {"name":"NWM systems.Control.Governance.Institutions.Independent technical/program oversight organization"},
+    {"name":"NWM systems.Control.Governance.Institutions.Regulatory authorities.International organizations"},
+    {"name":"NWM systems.Control.Governance.Institutions.Regulatory authorities.National organizations","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Institutions.Regulatory authorities.State/Local regulatory authorities","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Institutions.Political institutions.Governments","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Institutions.Political institutions.Parliaments/Senates/House of Representatives","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Institutions.Political institutions.Political parties","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Institutions.Public.Local communities","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Institutions.Public.NGOs","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Compliance period.Less than 10,000 years"},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Compliance period.10,000 years","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Compliance period.100,000 years"},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Compliance period.1,000,000 years"},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Compliance period.More than 1,000,000 years"},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Compliance period.Not specified/decided"},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Compliance boundary.Length (miles or km)","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Compliance boundary.Width (miles or km)","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Regulatory criteria.Public dose limits","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Regulatory framework.Regulatory criteria.Occupational dose limits","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Legal framework.General.Legislation specific to radioactive waste management","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Legal framework.General.Implementing organization","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Legal framework.General.Independent regulator","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Legal framework.General.Independent technical/program oversight"},
+    {"name":"NWM systems.Control.Governance.Legal framework.General.Dedicated funding source for repository development","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Legal framework.Regulations and decrees applicable to licensing a deep geologic repository","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Control.Governance.Legal framework.Formal legislative/executive approvals required for developing a deep geologic repository","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Control.Governance.Legal framework.Interactions with local jurisdictions","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Control.Governance.Legal framework.Explicit adoption of a staged decision-making process","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Control.Governance.Legal framework.Liabilities.Origin/ownership","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    
+    {"name":"NWM systems.Control.Governance.Legal framework.Liabilities.Types of liabilities","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Legal framework.Liabilities.Long-term management policy","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Legal framework.Liabilities.Funding of liabilities","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Decision-making process.Site selection.Deliberation","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    {"name":"NWM systems.Control.Governance.Decision-making process.Site selection.Public involvment","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    {"name":"NWM systems.Control.Governance.Decision-making process.Site selection.Decision","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Control.Governance.Decision-making process.Disposal design.Deliberation","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    {"name":"NWM systems.Control.Governance.Decision-making process.Disposal design.Public involvment","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    {"name":"NWM systems.Control.Governance.Decision-making process.Disposal design.Decision","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Control.Governance.Decision-making process.Criteria.Regulatory criteria","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Control.Governance.Decision-making process.Criteria.Site-selection criteria.Technical suitability","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Control.Governance.Decision-making process.Criteria.Site-selection criteria.Societal acceptability","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Geosphere.Rock types.Strong rocks, low porosity and few fractures"},
+    
+    
+    
+    
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Geosphere.Rock types.Relatively weak mudrocks or clays"},
+    
+    
+    
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Geosphere.Rock types.Rock salt","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Geosphere.Geological properties.Physical properties","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Geosphere.Geological properties.Geochemical properties","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Geosphere.Perturbations in rock.Construction","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Geosphere.Perturbations in rock.Waste emplacement","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Geosphere.Perturbations in rock.Mass transfer","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Biosphere.Water","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Biosphere.Air","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Global changes.Seismic activity"},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Global changes.Volcanism"},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Global changes.Climate change"},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Global changes.Glaciation"},
+    {"name":"NWM systems.Context.Environmental dimensions (geological disposal).Global changes.Human intrusion (presence of natural resources)"},
+    {"name":"NWM systems.Context.Societal dimensions.Benefits","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Context.Societal dimensions.Transparency","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Context.Societal dimensions.Resource efficiency","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Context.Societal dimensions.Continual improvement","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    {"name":"NWM systems.Context.Societal dimensions.Protection of people and the environment","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    
+    
+    {"name":"NWM systems.Context.Societal dimensions.Security","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]},
+    
+    {"name":"NWM systems.Context.Societal dimensions.Nonproliferation"},
+    
+    
+    {"name":"NWM systems.Context.Societal dimensions.Long-term commitment","imports":["NWM systems.Waste materials.Waste types.Intermediate and long-lived nuclides.TRU"]}
+    
+    
+]    
