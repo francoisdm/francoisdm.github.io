@@ -1,0 +1,52 @@
+ADD TREATMENT INTO PARENT CATEGORY X
+update the counts X
+unsort the categories when storing in X
+
+
+statistics:
+number of documents that only have no/one/2+ subjects X
+total number of documents included in aggregation
+
+
+figure out the links?? (half) ******* X
+
+(FINISH BY NEXT WEDNESDAY)
+
+keep same order for subcategories for lists X
+gray colors for links
+use fixed order of categories (order given there)
+minimum angle even if it's zero value
+just border for zero value
+360 - minimum angles - spaces in between and then proportional
+expand out the 2x the size and reduce all the others, keep the minimum angle? proportion out the rest
+make out counts the same as in counts
+
+take out gaps for incoming
+
+only one subcategory --> each subcategory to itself: count it one X
+
+https://francoisdm.github.io/
+
+
+
+(new task)
+osti.csv scopus.csv (subfolder in comparison of authors) 
+average number of documents per author for original Scopus documents
+perform for OSTI as well
+have a google sheets with the counts
+csv file with author and the number of documents
+
+data scraping osti author
+write up for DHLW-TRU
+add in self-links
+
+
+OVER SPRING BREAK:
+add self-links **
+finish osti scraping
+will send in some requests for zoom-in
+write up for the supplementary materials (send in draft)
+csv for documents counts for each categories/subcategories (how many documents go under each category/subcategory)
+
+start citation code running for main study
+
