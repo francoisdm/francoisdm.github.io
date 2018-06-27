@@ -23,15 +23,17 @@
     },{"name":"Transuranic isotopes"
     },{"name":"Naturally-occurring isotopes"
     },{"name":"Tritium"
-    },{"name":"Other radionuclides"}]
-    },{"name":"Waste properties"
-    ,"children":[{"name":"Decay mode"
+    },{"name":"Other radionuclides"
+    },{"name":"Non-radioactive elements"}]
+    },{"name":"Waste radioactivity"
+    ,"children":[{"name":"Radiation type"
     ,"children":[{"name":"Alpha radiation (α)"
     },{"name":"Beta radiation (β-)"
-    },{"name":"Multiple radiation"}]
-    },{"name":"Radiotoxicity (Sv)"
-    },{"name":"Estimated activity level (Bq)"
-    },{"name":"Half-life (years)"
+    },{"name":"Gamma decay (γ)"}]
+    },{"name":"Radiation level (Bq or Ci)"
+    },{"name":"Radio-toxicity"}]
+    },{"name":"Waste properties"
+    ,"children":[{"name":"Half-life (years)"
     },{"name":"Decay heat (kW/t)"
     },{"name":"Geochemical mobility (Kd)"
     },{"name":"Solubility"
