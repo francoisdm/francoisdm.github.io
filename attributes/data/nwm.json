@@ -1,25 +1,12 @@
-{"name":"NWM systems"
+{"name":"Disposal systems"
     ,"children":[{"name":"Waste materials"
     ,"children":[{"name":"Waste types"
-    ,"children":[{"name":"Highly radioactive and heat producing"
     ,"children":[{"name":"SNF"
-    },{"name":"HLW"}]
-    },{"name":"Intermediate and long-lived nuclides"
-    ,"children":[{"name":"LLW-LL"
-    },{"name":"ILW-LL"
+    },{"name":"HLW"
     },{"name":"TRU"}]
-    },{"name":"Low-level waste and short-lived nuclides"
-    ,"children":[{"name":"VLLW"
-    },{"name":"LLW/MLLW"
-    },{"name":"L/ILW-SL"
-    },{"name":"Sealed sources"
-    },{"name":"NORM/TENORM (mine overburden)"
-    },{"name":"Residual radioactive material (tailings)"}]}]
     },{"name":"Waste composition"
     ,"children":[{"name":"Activation products"
     },{"name":"Mixed fission products"
-    ,"children":[{"name":"Radioactive isotopes and daughters from Zn-72 to Gd-158"
-    },{"name":"Primary longer-lived isotopes"}]
     },{"name":"Transuranic isotopes"
     },{"name":"Naturally-occurring isotopes"
     },{"name":"Tritium"
@@ -27,10 +14,7 @@
     },{"name":"Non-radioactive elements"}]
     },{"name":"Waste radioactivity"
     ,"children":[{"name":"Radiation type"
-    ,"children":[{"name":"Alpha radiation (α)"
-    },{"name":"Beta radiation (β-)"
-    },{"name":"Gamma decay (γ)"}]
-    },{"name":"Radiation level (Bq or Ci)"
+    },{"name":"Radiation level"
     },{"name":"Radio-toxicity"}]
     },{"name":"Waste properties"
     ,"children":[{"name":"Half-life (years)"
@@ -61,11 +45,6 @@
     },{"name":"Waste packages"
     ,"children":[{"name":"Iron inserts"
     },{"name":"Metal canister"
-    ,"children":[{"name":"Steel"
-    },{"name":"Copper"
-    },{"name":"Advanced corrosion-resistant alloys"
-    },{"name":"Stainless steel"
-    },{"name":"Iron"}]
     },{"name":"Other containers"}]
     },{"name":"Structural barriers"
     ,"children":[{"name":"Drip shield"
@@ -79,50 +58,14 @@
     },{"name":"None"}]
     },{"name":"Host rock"
     ,"children":[{"name":"Rock types"
-    ,"children":[{"name":"Strong rocks with low porosity and few fractures"
-    ,"children":[{"name":"Basalt"
-    },{"name":"Gneiss"
-    },{"name":"Granite"
-    },{"name":"Granodiorite"
-    },{"name":"Migmatite"}]
-    },{"name":"Relatively weak mudrocks or clays"
-    ,"children":[{"name":"Argilite (clay)"
-    },{"name":"Sedimentary rock"
-    },{"name":"Shale"
-    },{"name":"Tuff"}]
-    },{"name":"Rock salt"}]
-    },{"name":"Rock properties"
-    ,"children":[{"name":"Geological Age"
-    },{"name":"Absolute Age (Ma)"
-    },{"name":"Depth of burial (m)"
-    },{"name":"Thickness of bed rock layer (m)"
-    },{"name":"Degree of induration"
-    },{"name":"Unconfined compressive strength (MPa)"
-    },{"name":"Clay minerals (%dry wt)"
-    },{"name":"Quartz (%dry wt)"
-    },{"name":"Carbonates (%dry wt)"
-    },{"name":"Pyrite (%dry wt)"
-    },{"name":"Organic Carbon (%dry wt)"
-    },{"name":"Porosity Anion / Cation Accessible (%vol)"
-    },{"name":"Pore Size Range (µm)"
-    },{"name":"Specific Surface Area (m2/g)"
-    },{"name":"Pore Water pH / Eh (mV)"
-    },{"name":"Pore Water Ionic Strength / log pCO2"
-    },{"name":"Hydraulic Conductivity Parallel / Perpendicular Bedding"
-    },{"name":"Hydraulic Gradient Over Clay Formation"
-    },{"name":"Effective Diffusion Coefficient Cations / Anions (m2/s)"
-    },{"name":"Permeability"}]}]}]}]
+    },{"name":"Rock properties"}]}]}]
     },{"name":"Site"
     ,"children":[{"name":"Geological processes"
     ,"children":[{"name":"Geophysical processes"
     },{"name":"Geochemical processes"
-    ,"children":[{"name":"Reduction / oxydation"
-    },{"name":"Swelling"
-    },{"name":"Transport of radionuclides"}]
-    },{"name":"Hydrology"
-    ,"children":[{"name":"Level of saturation"}]}]
+    },{"name":"Hydrology"}]
     },{"name":"Exogenous processes"
-    ,"children":[{"name":"Biosphere"
+    ,"children":[{"name":"Biosphere processes"
     },{"name":"Seismic activity"
     },{"name":"Volcanism"
     },{"name":"Climate change"
